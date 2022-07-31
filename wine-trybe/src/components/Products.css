@@ -12,3 +12,33 @@
 .card-products-container:hover {
   transform: scale(1.1);
 }
+.btt-style {
+  background-color: #7ebc43;
+  border: none;
+  display: flex;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  border-radius: 10px;
+  color: white;
+}
+
+.btt-style:hover {
+  cursor: pointer;
+  font-weight: 700;
+}
+.btt-previousNext {
+  margin-top: 1%;
+  margin-left: 1%;
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.catalogos {
+  margin-left: 1%;
+  font-size: 16px;
+}
