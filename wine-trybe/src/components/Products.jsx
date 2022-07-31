@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { apiProducts } from "../services/api";
 import "./Products.css";
-
+// estamos aqui 
 export default function Products() {
   const [products, setProducts] = useState([]);
 
