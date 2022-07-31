@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { apiProducts } from "../services/api";
+import { FaWineBottle} from "react-icons/fa"
+import "../style/Products.css"
 
 export default function Products() {
   const [products, setProducts] = useState([]);
@@ -15,7 +17,6 @@ export default function Products() {
 
   return (
     <div className="Products">
-      <div></div>
       <h3> Catálogos - Vinhos  </h3>   
     <div   
       className="d-flex flex-nowrap overflow-auto carousel-inner" 
@@ -37,7 +38,10 @@ export default function Products() {
       ))
     ) : ' '
     };
-    </div>  
+    </div> 
+    <div className="barra-container">
+          <FaWineBottle  size="30px"/>
+      </div> 
   </div>  
   );
 }
