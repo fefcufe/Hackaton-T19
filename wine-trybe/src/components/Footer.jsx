@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Footer.css';
+import '../style/Footer.css';
 import  logoWine from '../images/wineLogo.png';
 
 function Footer() {
@@ -20,17 +20,13 @@ function Footer() {
           Brindes e cupons no Indique Amigos
         </div>
       </div>
-      <div className='logoWine'>
-        <div>
-          <img
-            src={ logoWine }
-            alt='logoWine'
-          />
-        </div>
-        <div className='infosWine'>
-          <h5>W2W E-Commerce de Vinhos S.A CNPJ: 09.813.204/0002-05</h5>
-          <h5>Rua Comendador Alcides Simão Helou, 1478 Serra - ES - CEP 29168-090</h5>
-        </div>
+      <div className='infosWine'>
+        <img
+          src={ logoWine }
+          alt='logoWine'
+        />
+        <h5>W2W E-Commerce de Vinhos S.A CNPJ: 09.813.204/0002-05</h5>
+        <h5>Rua Comendador Alcides Simão Helou, 1478 Serra - ES - CEP 29168-090</h5>
       </div>
     </div>
   );
