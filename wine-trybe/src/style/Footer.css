@@ -74,11 +74,12 @@
 .infosWine {
   text-align: center;
   display: flex;
+  color: #8c8b8b;
   justify-content: space-around;
   padding: 10px 20px;
 }
 
-@media (min-width: 300px) and (max-width: 600px) {
+@media (min-width: 300px) and (max-width: 700px) {
   .divCards {
     display: flex;
     flex-direction: column
@@ -101,5 +102,5 @@
 }
 
 @media (min-width: 300px) and (max-width: 700px) {
-  img { display: none; }
+  img { display: none }
 }
