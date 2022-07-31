@@ -12,3 +12,15 @@
 .card-products-container:hover {
   transform: scale(1.1);
 }
+
+.container-barra {
+background-color: blueviolet;
+}
+
+.barra-container {
+  background-color: var(--rosa-bebe);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

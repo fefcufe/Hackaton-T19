@@ -52,3 +52,10 @@ li:hover {
 @media (max-width: 600px) {
   .nav-header {display: none;}
 }
+
+.barra-container {
+  background-color: var(--rosa-bebe);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
