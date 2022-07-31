@@ -1,8 +1,9 @@
 .header {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  align-items: baseline;
+  justify-content: space-between;
   background-color: var(--pink);
+  padding: 8px 20px;
 }
 
 .nav-ul {
@@ -34,7 +35,6 @@ li:hover {
 
 .icons-header {
   padding-left: 5px;
-  padding-right: 5px;
 }
 
 .social-media > :nth-child(1) {
