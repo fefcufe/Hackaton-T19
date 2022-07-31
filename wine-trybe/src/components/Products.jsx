@@ -6,7 +6,7 @@ export default function Products() {
 
   useEffect(() => {                                                                                       
     apiProducts
-      .get("/products?page=1&limit=10")
+      .get("/products?page=1&limit=13")
       .then((response) => setProducts(response.data.items))
       .catch((err) => {
         console.error("ops! ocorreu um erro" + err);
@@ -24,6 +24,7 @@ export default function Products() {
       products.map(({ image, name, sommelierComment }, index) =>  (     
           <div   
             key={ index }
+            className="card-woman-container"
           >
             <img
                 src={ image }
