@@ -24,6 +24,7 @@ export default function Products() {
       products.map(({ image, name, sommelierComment }, index) =>  (     
           <div   
             key={ index }
+            className="card-woman-container"
           >
             <img
                 src={ image }
@@ -31,9 +32,6 @@ export default function Products() {
                 width="100"
                 height="100"
             />          
-            <h6>
-              { name }
-            </h6>
           </div>            
       ))
     ) : ' '
