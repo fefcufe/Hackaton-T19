@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { apiPlans } from "../services/api";
-import '../planCard.css';
+import '../style/PlanCard.css';
 
 export default function Plans() {
   const [plans, setPlans] = useState([]);
-  // console.log(plans)
-
   useEffect(() => {
     apiPlans
       .get("/modalities")
@@ -14,13 +12,8 @@ export default function Plans() {
         console.error("ops! ocorreu um erro" + err);
       });
       console.log(plans);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   
-/*   const calculateAdvantage = (priceWithDiscount, price) => {
-    return price - priceWithDiscount
-  }; */
-
   return (
     <div className="Plans">
       <div className="plans-title">

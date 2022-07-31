@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Footer.css';
+import '../style/Footer.css';
 import  logoWine from '../images/wineLogo.png';
 
 function Footer() {

@@ -1,17 +1,17 @@
 .woman-container {
   display: flex;
-  flex-direction:row;
-  flex-wrap:wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   background-color: #c81a79;
   padding: 10px;
-
 }
 
 .card-woman-container {
   border-radius: 20px;
-  box-shadow: rgba(255, 255, 255, 0.1) 0 1px 1px 0 inset ,
-    rgba(50, 50, 93, 0.25) 0 50px 100px -20px , rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0 1px 1px 0 inset,
+    rgba(50, 50, 93, 0.25) 0 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
   margin: 1.8%;
   padding: 15px;
   transition: all 0.5s ease-in-out;
@@ -34,8 +34,8 @@
   width: 150px;
 }
 
-.wine-text{
-  font-size:10px;
+.wine-text {
+  font-size: 10px;
   text-align: justify;
 }
 
@@ -44,8 +44,8 @@
   text-align: center;
 }
 
-
-.socio-container, .nao-socio-container{
+.socio-container,
+.nao-socio-container {
   display: flex;
   font-size: 10px;
   align-items: center;
@@ -77,11 +77,11 @@
   font-weight: 700;
 }
 
-.socio-container{
+.socio-container {
   color: black;
   font-weight: 700;
 }
-.nao-socio-container{
+.nao-socio-container {
   color: gray;
   font-weight: 600;
 }
@@ -90,4 +90,35 @@
   color: #c81a79;
   font-size: 18px;
   padding: 5px;
+}
+
+.title-img-container {
+  padding: 20px;
+  flex-direction: column;
+  background-color: #c81a79;
+}
+
+.img-womens-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+}
+.img-womens {
+  border-radius: 20px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0 1px 1px 0 inset,
+    rgba(50, 50, 93, 0.25) 0 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
+  padding: 15px;
+  transition: all 0.5s ease-in-out;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 75%;
+}
+
+.title-womens {
+  font-size: 20px;
+  line-height: 3;
+  font-family: 700px;
+  color: white;
 }
