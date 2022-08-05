@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { apiProducts } from "../services/api";
 import "./Products.css";
-// estamos aqui 
+
+import "../style/Products.css"
+
+
 export default function Products() {
   const [products, setProducts] = useState([]);
 
@@ -15,6 +18,7 @@ export default function Products() {
   }, []);
 
   return (
+    <div>
     <div className="products">
       <h3 className="catalogos"> Catálogos - Vinhos </h3>
       <div
@@ -32,7 +36,7 @@ export default function Products() {
           </button>
         </div>
         {products.length > 0
-          ? products.map(({ image, name, sommelierComment }, index) => (
+          ? products.map(({ image, name }, index) => (
               <div key={index} className="card-woman-container">
                 <div>
                   <img src={image} alt={name} width="100" height="100" />
@@ -53,6 +57,7 @@ export default function Products() {
           </button>
         </div>
       </div>
-    </div>
-  );
+    </div>           
+  </div> 
+);
 }

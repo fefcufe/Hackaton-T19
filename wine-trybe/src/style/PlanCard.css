@@ -1,3 +1,9 @@
+.plans {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+
 .plans-cards {
   display: flex;
   flex-wrap: wrap;
@@ -18,28 +24,79 @@
   transition: all 0.5s ease-in-out;
 }
 
+.title-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px ;
+  font-size: 16px;
+}
+
+.title-text-card{
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.promocao {
+  margin-left: 20px;
+  background-color: #F79552;
+  border: none;
+  display: flex;
+  font-size: 12px;
+  outline: none;
+  padding: 5px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  border-radius: 10px;
+  color: white;
+}
+
+.promocao:hover {
+  cursor: pointer;
+  font-weight: 700;
+}
+
 .plan-price {
-    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
 }
 
 .plan-card:hover {
   transform: scale(1.1);
 }
 
-.promocao {
-    background-color: #F79552;
-    border-radius: 10px;
-}
 
 .assine {
     background-color: #7EBC43;
-    border-radius: 4px;
+    border: none;
+    display: flex;
+    font-size: 12px;
+    outline: none;
+    padding: 10px;
+    -webkit-transition: 1s;
+    transition: 1s;
+    border-radius: 10px;
+    color: white;
+    margin: 2%;
+}
+.price-discount {
+  color: var(--pink);
+  font-weight: 800;
+}
+.assine:hover {
+  cursor: pointer;
+  font-weight: 700;
 }
 
 .footer-card {
-    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .brinde {
   font-size: 10px;
+  font-weight: 800;
 }
