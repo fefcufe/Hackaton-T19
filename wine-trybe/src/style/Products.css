@@ -13,14 +13,33 @@
   transform: scale(1.1);
 }
 
-.container-barra {
-background-color: blueviolet;
+.btt-style {
+  background-color: #7ebc43;
+  border: none;
+  display: flex;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  border-radius: 10px;
+  color: white;
 }
 
-.barra-container {
-  background-color: var(--rosa-bebe);
-  height: 50px;
+.btt-style:hover {
+  cursor: pointer;
+  font-weight: 700;
+}
+.btt-previousNext {
+  margin-top: 1%;
+  margin-left: 1%;
+}
+.products {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.catalogos {
+  margin-left: 1%;
+  font-size: 16px;
 }
